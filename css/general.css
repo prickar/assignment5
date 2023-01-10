@@ -44,4 +44,12 @@ h1 {
     font-size: 1em; 
 }
 
+.submenu {
+    display: none; 
+    flex-direction: column; 
+    position: absolute; 
+    top: 34px;
+    width: 100%;
+}
+
 
