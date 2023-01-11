@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    margin: 0; 
 }
 
 main {
@@ -23,8 +24,9 @@ main {
 .menu {
     align-items: center;
     display: flex;
-    gap: 16px;
+    gap: 56px;
     padding: 16px;
+    margin: 0; 
     justify-content: center;
 }
 
@@ -33,6 +35,10 @@ li, a {
     font-size: 16px;
     text-decoration: none;
     list-style-type: none;
+}
+
+.menu > li {
+    position: relative;
 }
 
 .active-page {
@@ -48,7 +54,7 @@ h1 {
     display: none; 
     flex-direction: column; 
     position: absolute; 
-    top: 34px;
+    padding: 8px;
     width: 100%;
 }
 
