@@ -1,0 +1,29 @@
+@font-face {
+    font-family: aileronRegular;
+    src: url(../fonts/aileron-regular-webfont.woff) format('woff'),
+         url(../fonts/aileron-regular-webfont.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: aileronLight;
+    src: url(../fonts/aileron-light-webfont.woff) format('woff'),
+         url(../fonts/aileron-light-webfont.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: aileronRegular;
+    src: url(../fonts/aileron-regular-webfont.woff) format('woff'),
+         url(../fonts/aileron-regular-webfont.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: aileronSemiBold;
+    src: url(../fonts/aileron-semibold-webfont.woff) format('woff'),
+         url(../fonts/aileron-semibold-webfont.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: aileronBold;
+    src: url(../fonts/aileron-bold-webfont.woff) format('woff'),
+         url(../fonts/aileron-bold-webfont.woff2) format('woff2');
+}
