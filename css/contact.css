@@ -6,3 +6,15 @@ header {
 .small-logo {
     width: 200px;
 }
+
+.contact-container {
+    display: flex; 
+    gap: 16px;
+    padding: 32px;
+}
+
+.side-image img {
+    border-radius: 10px;
+    width: 310px;
+    height: 434px;
+}
