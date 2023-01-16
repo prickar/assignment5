@@ -6,3 +6,15 @@ header {
 .small-logo {
     width: 200px;
 }
+
+.title-container {
+    display: flex; 
+    padding: 8px;
+
+}
+
+.title-container p {
+    color: var(--textColor);
+    font-family: 'aileronBold';
+    font-size: 7em;
+}

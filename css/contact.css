@@ -9,12 +9,39 @@ header {
 
 .contact-container {
     display: flex; 
-    gap: 16px;
+    justify-content: center;
     padding: 32px;
 }
 
+.contact-form {
+    background: url(../images/IMG_6420.jpg) no-repeat center fixed;
+    padding: 16px; 
+}
+
 .side-image img {
-    border-radius: 10px;
     width: 310px;
     height: 434px;
+}
+
+.wrapper p {
+    color: var(--textColor);
+    text-align: center;
+    font-family: 'aileronLight';
+}
+
+form, input, textarea, button {
+    border-radius: 5px;
+    display: flex; 
+    flex-direction: column;
+}
+
+.icon-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-images img {
+    height: 50px;
+    width: 50px;
 }
