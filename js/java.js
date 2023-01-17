@@ -1,5 +1,5 @@
 $(function() {
-    $(".navigation li").on({
+    $(".navigation li").on ({
         mouseenter: function() {
             $(this).toggleClass("active");
         },
@@ -12,9 +12,8 @@ $(function() {
         }
     })
 
-
-
-
+    $('.photo-slider').slick();
 
 
 })
+

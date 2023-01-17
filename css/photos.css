@@ -6,3 +6,12 @@ header {
 .small-logo {
     width: 200px;
 }
+
+.photo-slider img {
+    height: 300px;
+    width: 400px;
+}
+
+.photo-slider {
+    padding: 64px;
+}
