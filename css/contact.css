@@ -10,34 +10,39 @@ header {
 .contact-container {
     display: flex; 
     justify-content: center;
-    padding: 32px;
+    padding: 64px;
 }
 
 .contact-form {
     background: url(../images/IMG_6420.jpg) no-repeat center fixed;
-    padding: 16px; 
+    padding: 24px; 
 }
 
 .side-image img {
-    width: 310px;
-    height: 434px;
+    width: 380px;
+    height: 551px;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .wrapper p {
     color: var(--textColor);
     text-align: center;
-    font-family: 'aileronLight';
+    font-family: 'aileronRegular';
 }
 
 form, input, textarea, button {
-    border-radius: 5px;
     display: flex; 
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
 }
 
 .icon-images {
-    display: flex;
     align-items: center;
+    display: flex;
+    gap: 46px;
     justify-content: center;
 }
 
