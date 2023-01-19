@@ -88,7 +88,8 @@
 }
 .slick-slide img
 {
-    display: block;
+    display: block; 
+
 }
 .slick-slide.slick-loading img
 {
@@ -100,7 +101,9 @@
 }
 .slick-initialized .slick-slide
 {
-    display: block;
+   /* display: block; */
+   display: flex;
+   justify-content: center;
 }
 .slick-loading .slick-slide
 {
@@ -116,4 +119,17 @@
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+.slick-prev, 
+.slick-next {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    display: flex; 
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+    justify-content: center;
+
 }
