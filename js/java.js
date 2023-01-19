@@ -11,7 +11,7 @@ $(function() {
             $(this).find(".submenu").toggle();
         }
     })
-
+    
     $('.photo-slider').slick();
 
 
