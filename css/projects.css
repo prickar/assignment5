@@ -1,0 +1,8 @@
+header {
+    display: flex; 
+    justify-content: center;
+}
+
+.small-logo {
+    width: 200px;
+}

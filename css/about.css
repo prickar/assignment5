@@ -7,14 +7,46 @@ header {
     width: 200px;
 }
 
-.title-container {
+.about-container {
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}
+
+.me-container {
     display: flex; 
-    padding: 8px;
-
+    flex-direction: column;
 }
 
-.title-container p {
-    color: var(--textColor);
-    font-family: 'aileronBold';
-    font-size: 7em;
+.me-container p {
+    background: url(../images/IMG_6420.jpg)  no-repeat center fixed;
+    color: #fff;
+    display: none; 
+    font-family: 'aileronRegular';
+    height: 300px;
+    margin: 0;
+    width: 300px;
 }
+
+
+.me-image,
+.work-image {
+    width: 300px;
+    height: 450px;
+}
+
+.work-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-container p {
+    background: url(../images/IMG_6420.jpg)  no-repeat center fixed;
+    color: #fff;
+    display: none; 
+    font-family: 'aileronRegular';
+    height: 300px;
+    margin: 0; 
+    width: 300px;
+}
+

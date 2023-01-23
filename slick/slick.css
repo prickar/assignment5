@@ -127,8 +127,9 @@
     border: none;
     color: #fff;
     display: flex; 
-    text-align: center;
     font-size: 16px;
+    font-family: 'aileronSemiBold';
+    text-align: center;
     margin: auto;
     justify-content: center;
 
