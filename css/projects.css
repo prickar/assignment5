@@ -6,3 +6,16 @@ header {
 .small-logo {
     width: 200px;
 }
+
+.projects-container {
+    align-items: center;
+    display: flex; 
+    flex-direction: column;
+    padding: 64px;
+}
+
+p {
+    color: #fff; 
+    font-family: 'aileronBold';
+    font-size: 3em;
+}
