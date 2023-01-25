@@ -14,11 +14,13 @@ header {
 }
 
 .contact-form {
+    border-radius: 30px;
     background: url(../images/IMG_6420.jpg) no-repeat center fixed;
     padding: 24px; 
 }
 
 .side-image img {
+    border-radius: 30px;
     width: 380px;
     height: 551px;
     min-width: 100%;

@@ -58,18 +58,17 @@ header {
 }
 
 .fade {
-    position: absolute; 
+    position: relative; 
 
 }
 
 .fade div {
     position: absolute; 
     top: 0;
-    left: 0;
-    display: none; 
 }
 
 .fade img {
+    border-radius: 30px;
     width: 550px;
     height: 350px;
 }
@@ -82,3 +81,4 @@ p {
     height: 300px;
 
 }
+
