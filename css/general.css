@@ -4,41 +4,54 @@
 
 html {
     height: 100vh;
-    scroll-behavior: smooth;
 }
 
 * {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 body {
     background: url(../images/background-2.jpg) no-repeat center fixed;
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     height: 100%;
     margin: 0; 
 }
 
 main {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
     flex-grow: 1;
 }
 
 .menu {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 56px;
-    padding: 16px;
-    margin: 0; 
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    margin: 0; 
+    padding: 16px;
 }
 
 li, a {
     color: var(--textColor);
     font-family: 'aileronBold';
     font-size: 16px;
-    text-decoration: none;
     list-style-type: none;
+    text-decoration: none;
 }
 
 .menu > li {
@@ -56,9 +69,12 @@ h1 {
 
 .submenu {
     display: none; 
+    -webkit-box-orient: vertical; 
+    -webkit-box-direction: normal; 
+    -ms-flex-direction: column; 
     flex-direction: column; 
-    position: absolute; 
     padding: 8px;
+    position: absolute; 
     width: 120px;
 }
 
@@ -70,3 +86,8 @@ footer {
     padding: 16px; 
 }
 
+@media screen and (max-width:768px) {
+    html {
+        width: 100vh; 
+    }
+}
