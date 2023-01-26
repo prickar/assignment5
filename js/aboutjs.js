@@ -1,6 +1,6 @@
 $(function(){
 
-      // find the div.fade elements and hook the hover event
+  //find the div.fade elements and hook the hover event
   $('div.fade').hover(function() {
     // on hovering over, find the element we want to fade *up*
     var fade = $('> div', this);
@@ -22,14 +22,15 @@ $(function(){
       // fade away slowly
       fade.fadeOut(3000);
     }
-  });
+   });
 
   $(".click-image").on("click", function() {
-    $(this).siblings("p").slideToggle(500);
+    $("#slideContainer").slideToggle("slow");
 
-    let opacityValue = $(this).hasClass("active") ? 1 : 0.5;
+    // //let opacityValue = $(this).hasClass("active") ? 1 : 0.5;
+    let opacityValue = 1;
 
-    $(this).parent().siblings().fadeTo(800, opacityValue)
+    $(this).parent().siblings().fadeTo(800, opacityValue);
 
     $(this).toggleClass("active");
 
