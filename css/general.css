@@ -1,5 +1,8 @@
 :root {
     --textColor: #fff;
+    --distanceNavMain: 64px;
+    --distanceSmallest:8px;
+    --distanceMiddle: 30px; 
 }
 
 html {
@@ -73,7 +76,7 @@ h1 {
     -webkit-box-direction: normal; 
     -ms-flex-direction: column; 
     flex-direction: column; 
-    padding: 8px;
+    padding: var(--distanceSmallest);
     position: absolute; 
     width: 120px;
 }

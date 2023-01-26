@@ -54,7 +54,7 @@ header {
 .about-container {
     display: flex; 
     justify-content: center;
-    padding: 64px;
+    padding: var(--distanceNavMain);
 }
 
 .fade {
@@ -68,19 +68,20 @@ header {
 }
 
 .fade img {
-    border-radius: 30px;
+    border-radius: var(--distanceMiddle);
     width: 550px;
     height: 350px;
 }
 
 p {
-    border-radius: 30px;
+    border-radius: var(--distanceMiddle);
     background: url(../images/IMG_6420.jpg)  no-repeat center fixed;
     color: #fff;
     display: none; 
     text-align: center;
     font-family: 'aileronRegular';
-    height: 300px;
+    height: 550px;
+    width: 550px;
 
 }
 

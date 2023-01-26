@@ -10,17 +10,17 @@ header {
 .contact-container {
     display: flex; 
     justify-content: center;
-    padding: 64px;
+    padding: var(--distanceNavMain);
 }
 
 .contact-form {
-    border-radius: 30px;
+    border-radius: var(--distanceMiddle);
     background: url(../images/IMG_6420.jpg) no-repeat center fixed;
     padding: 24px; 
 }
 
 .side-image img {
-    border-radius: 30px;
+    border-radius: var(--distanceMiddle);
     width: 380px;
     height: 551px;
     min-width: 100%;
@@ -34,6 +34,7 @@ header {
 }
 
 form, input, textarea, button {
+    border-radius: var(--distanceMiddle);
     display: flex; 
     flex-direction: column;
     justify-content: center;
