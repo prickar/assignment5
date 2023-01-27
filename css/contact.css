@@ -1,5 +1,9 @@
 header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; 
+    -webkit-box-pack: center; 
+    -ms-flex-pack: center; 
     justify-content: center;
 }
 
@@ -8,48 +12,72 @@ header {
 }
 
 .contact-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; 
+    -webkit-box-pack: center; 
+    -ms-flex-pack: center; 
     justify-content: center;
     padding: var(--distanceNavMain);
 }
 
 .contact-form {
     border-radius: var(--distanceMiddle);
-    background: url(../images/IMG_6420.jpg) no-repeat center fixed;
+    background: url(../images/contactClouds.jpg) no-repeat center fixed;
     padding: 24px; 
 }
 
 .side-image img {
     border-radius: var(--distanceMiddle);
-    width: 380px;
     height: 551px;
-    min-width: 100%;
     min-height: 100%;
+    min-width: 100%;
+    width: 380px;
 }
 
 .wrapper p {
-    color: var(--textColor);
-    text-align: center;
+    color: var(--primaryColor);
     font-family: 'aileronRegular';
+    text-align: center;
 }
 
 form, input, textarea, button {
     border-radius: var(--distanceMiddle);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; 
+    -webkit-box-orient: vertical; 
+    -webkit-box-direction: normal; 
+    -ms-flex-direction: column; 
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
-    text-align: center;
     margin: auto;
+    text-align: center;
 }
 
 .icon-images {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 46px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
 .icon-images img {
     height: 50px;
     width: 50px;
+}
+
+@media screen and (max-width:768px) {
+    .side-image img {
+        height: 550px;
+        width: 350px;
+    }
 }

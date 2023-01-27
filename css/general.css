@@ -1,5 +1,5 @@
 :root {
-    --textColor: #fff;
+    --primaryColor: #fff;
     --distanceNavMain: 64px;
     --distanceSmallest:8px;
     --distanceMiddle: 30px; 
@@ -11,7 +11,7 @@ html {
 
 * {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -22,8 +22,8 @@ body {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     height: 100%;
     margin: 0; 
 }
@@ -50,7 +50,7 @@ main {
 }
 
 li, a {
-    color: var(--textColor);
+    color: var(--primaryColor);
     font-family: 'aileronBold';
     font-size: 16px;
     list-style-type: none;
@@ -62,7 +62,7 @@ li, a {
 }
 
 .active-page {
-    color: var(--textColor);
+    color: var(--primaryColor);
     text-decoration: underline;
   }
 
@@ -82,8 +82,8 @@ h1 {
 }
 
 footer {
-    border-top: solid 1px var(--textColor); 
-    color: var(--textColor);
+    border-top: solid 1px var(--primaryColor); 
+    color: var(--primaryColor);
     font-family: 'aileronLight';
     font-size: 0.6em; 
     padding: 16px; 
@@ -91,6 +91,7 @@ footer {
 
 @media screen and (max-width:768px) {
     html {
+        height: 174vh;
         width: 100vh; 
     }
 }

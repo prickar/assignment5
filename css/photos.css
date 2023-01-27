@@ -18,7 +18,7 @@ header {
 }
 
 .text-container {
-    border: 1px solid #fff;
+    border: 1px solid var(--primaryColor);
     border-radius: var(--distanceMiddle); 
     display: flex; 
     justify-content: center;
@@ -27,7 +27,7 @@ header {
 }
 
 span {
-    color: #fff;
+    color: var(--primaryColor);
     font-family: 'aileronLight';
     text-align: center;
 
